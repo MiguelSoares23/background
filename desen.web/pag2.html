@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <link rel="shortcut icon" href="teste.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #fdfada;
+            background-image: url(turma_monica.png);
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 170px;
+        }
+
+        .container ul {
+           display: flex;
+           justify-content: flex-start;
+           list-style: none;
+           align-items: baseline;
+           padding: 16px;
+        }
+
+        .container li {
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .container a {
+            color: rgb(133, 226, 255);
+            text-decoration: none;
+        }
+
+        #myDIV {
+        border: 1px solid black;
+        width: 1700px;
+        height: 850px;
+        background: url('porco.png') no-repeat;
+        }
+
+        button {
+            background-color: white;
+            background-image: url(pegada-porco.png);
+            background-size: 30px;
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <ul>
+            <li>
+                <a href="index.html">exemplo 1</a>
+            </li>
+            <li>
+                <a href="pag2.html">exemplo 2</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Chovinista</h1>
+    
+    <button onclick="myFunction6()">topo direita</button>
+    <button onclick="myFunction2()">topo</button>
+    <button onclick="myFunction7()">topo esquerda</button>
+
+    <button onclick="myFunction4()">centro direita</button>
+    <button onclick="myFunction()">centro</button>
+    <button onclick="myFunction5()">centro esquerda</button>
+    
+    <button onclick="myFunction8()">base direita</button>
+    <button onclick="myFunction3()">base</button>
+    <button onclick="myFunction9()">base esquerda</button>
+
+    
+    <div id="myDIV">
+        
+      </div>
+
+        <script>
+        function myFunction() {
+          document.getElementById("myDIV").style.backgroundPosition = "center";
+        }
+        </script>
+
+        <script>
+            function myFunction2() {
+          document.getElementById("myDIV").style.backgroundPosition = "top";
+        }
+        </script>
+
+        <script>
+            function myFunction3() {
+        document.getElementById("myDIV").style.backgroundPosition = "bottom";
+        }
+
+        function myFunction4() {
+            document.getElementById("myDIV").style.backgroundPosition = "right center";
+        }
+        </script>
+
+        <script>
+        function myFunction5() {
+        document.getElementById("myDIV").style.backgroundPosition = "left center";
+        }
+        </script>
+
+        <script>
+        function myFunction6() {
+        document.getElementById("myDIV").style.backgroundPosition = "right top";
+        }
+        </script>
+
+        <script>
+        function myFunction7() {
+        document.getElementById("myDIV").style.backgroundPosition = "left top";
+        }
+        </script>
+
+    <script>
+    function myFunction8() {
+    document.getElementById("myDIV").style.backgroundPosition = "right bottom";
+    }
+    </script>
+
+    <script>
+        function myFunction9() {
+    document.getElementById("myDIV").style.backgroundPosition = "left bottom";
+    }
+    </script>
+
+    <p>Chovinista é o porquinho do Cascão... Quero dizer, é o bichinho de estimação do Cascão. Divertido, esperto e carinhoso, nunca deixa seu dono na mão. Às vezes até salva o Cascão de algum apuro, como um banho acidental ou uma situação que tenha água no meio.</p>
+    <p>Muitas vezes tem "crise de identidade", daí ele se passa por outro animal.
+        Mas ao contrário de seu dono, Chovinista não se importa muito em tomar banho, o que deixa o Cascão decepcionado de vez em quando. Ama limpeza, e tem um comportamento um tanto serelepe e "politicamente correto". Vive saltitando e fazendo amizade com outros bichos, não gosta que joguem lixo no chão.</p>
+        <p>Não gosta da Maria Cascuda, graças aos seus famosos ciúmes, e de outro bicho que o Cascão leva para casa que deixa o Chovinista com ciúmes também.</p>
+        <p>É um porco rechonchudo, de pele alaranjado, tem algumas manchas nas bochechas mas aparece sem elas em algumas histórias.
+        </p>
+        <p>Chovinista é muito fiel ao seu dono Cascão, diferentemente do Cascão ele não tem problema em se molhar, frequentemente ele tem crises de identidade se perguntando que tipo de bichinho ele é, algo legal do Chovinista é ele se comportar como um ser humano comendo na mesa com a família limpando a casa e outras coisas, ele também tem seus momentos de paranóia chegando a pensar que o Cascão é um vampiro, lobisomem e Etc, e também odeia a namorada do Cascão Cascuda por ciúmes.</p>
+</script>
+</body>
+</html>
